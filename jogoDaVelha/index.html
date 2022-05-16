@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div>
+        <div id="a1" class="quadrado" onclick="escolherQuadrado()"></div>
+        <div id="a2" class="quadrado"></div>
+        <div id="a3" class="quadrado"></div>
+    </div>
+    <div>
+        <div id="b1" class="quadrado"></div>
+        <div id="b2" class="quadrado"></div>
+        <div id="b3" class="quadrado"></div>
+    </div>
+    <div>
+        <div id="c1" class="quadrado"></div>
+        <div id="c2" class="quadrado"></div>
+        <div id="c3" class="quadrado"></div>
+    </div>
+    <div class="jogador">
+        <label>Jogador: </label>
+        <label id="jogador-selecionado"></label>
+    </div>
+    <div class="vencedor">
+        <label>Vencedor: </label>
+        <label id="jogador-vencedor"></label>
+    </div>
+    <div>
+        <button>Reiniciar</button>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
